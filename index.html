@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="section">
+      <div class="title">
+        <h2>about</h2>
+        <p>
+         Artificial intelligence
+        </p>
+      </div>
+
+      <div class="about-center section-center">
+        <article class="about-img">
+          <!-- <img src="./hero-bcg.jpeg" alt="" /> -->
+          <img src="./ai.jpg" alt="" />
+        </article>
+        <article class="about">
+          <!-- btn container -->
+          <div class="btn-container">
+            <button class="tab-btn active" data-id="importance">Importance</button>
+            <button class="tab-btn" data-id="purpose">Purpose</button>
+            <button class="tab-btn" data-id="examples">examples</button>
+          </div>
+          <div class="about-content">
+            <!-- single item -->
+            <div class="content active" id="importance">
+              <h4>Importance</h4>
+              <p>
+                AI is important for its potential to change how we live, work and play. 
+                It has been effectively used in business to automate tasks traditionally done by humans,
+                 including customer service, lead generation, fraud detection and quality control
+              </p>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="purpose">
+              <h4>purpose</h4>
+              <p>
+                Artificial intelligence (AI) makes it possible for machines to learn from experience,
+                 adjust to new inputs and perform human-like tasks. Most AI examples that you hear about today – 
+                from chess-playing computers to self-driving cars – rely heavily on deep learning and natural language processing.
+              </p>
+              <!-- <ul>
+                <li>list item</li>
+                <li>list item</li>
+                <li>list item</li>
+              </ul> -->
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="examples">
+              <h4>examples</h4>
+              <p>
+                <ul>
+                  <li>face recognition</li>
+                  <li>Digital assistants</li>
+                  <li>Banking  </li>
+                  <li>Entertainment and social apps  </li>
+                </ul>
+              </p>
+            </div>
+            <!-- end of single item -->
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
